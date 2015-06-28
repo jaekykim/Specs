@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/jaekykim/jkdatamodelmanager.git", :tag => "1.0" }
   s.source_files = "JKDataModelManager/*.{h,m}", "JKDataModelManager/Errors/*.{h,m}", "JKDataModelManager/Model/*.{h,m}", "JKDataModelManager/Model/Categories/*.{h,m}", "JKDataModelManager/Model/Model Resources/*.{h,m}", "JKDataModelManager/Shared/*.{h,m}", "JKDataModelManager/Parsers/*.{h,m}", "JKDataModelManager/Requests/*.{h,m}"
-#  s.resources      = "JKDataModelManager/Model/Model Resources/*.{xcdatamodeld,xcmappingmodel,xcdatamodel,sqlite}"
+  s.resources      = "JKDataModelManager/Model/Model Resources/*.{xcdatamodeld,xcmappingmodel,xcdatamodel,sqlite}"
   s.requires_arc = true
   s.dependency "AFNetworking","~> 2.5.1"
 end
