@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0"
   s.summary      = "The object model for datamodelmanager in iOS applications."
 
-  s.description  = "data model"
+  s.description  = "data model, The object model for datamodelmanager in iOS applications."
 
   s.homepage     = "https://github.com/jaekykim/jkdatamodelmanager"
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/jaekykim/jkdatamodelmanager.git", :tag => "1.0" }
   s.source_files = "JKDataModelManager/*.{h,m}", "JKDataModelManager/Errors/*.{h,m}", "JKDataModelManager/Model/*.{h,m}", "JKDataModelManager/Model/Categories/*.{h,m}", "JKDataModelManager/Model Resources/*.{h,m}", "JKDataModelManager/Shared/*.{h,m}", "JKDataModelManager/Parsers/*.{h,m}", "JKDataModelManager/Requests/*.{h,m}"
-  s.resources      = "Model Resources/*.{xcdatamodeld,xcmappingmodel,xcdatamodel,sqlite}"
+  s.resources      = "JKDataModelManager/Model Resources/*.{xcdatamodeld,xcmappingmodel,xcdatamodel,sqlite}"
   s.requires_arc = true
   s.dependency "AFNetworking","~> 2.5.1"
 end
